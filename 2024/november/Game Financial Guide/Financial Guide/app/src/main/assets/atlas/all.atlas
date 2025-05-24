@@ -1,0 +1,84 @@
+all.png
+size: 1672, 1930
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back_def
+  rotate: false
+  xy: 2, 2
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+back_prss
+  rotate: false
+  xy: 113, 2
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+dalee_def
+  rotate: false
+  xy: 748, 2
+  size: 460, 110
+  orig: 460, 110
+  offset: 0, 0
+  index: -1
+dalee_prss
+  rotate: false
+  xy: 1210, 2
+  size: 460, 110
+  orig: 460, 110
+  offset: 0, 0
+  index: -1
+def
+  rotate: false
+  xy: 2, 304
+  size: 820, 139
+  orig: 820, 139
+  offset: 0, 0
+  index: -1
+false
+  rotate: false
+  xy: 824, 304
+  size: 820, 139
+  orig: 820, 139
+  offset: 0, 0
+  index: -1
+manu_main
+  rotate: false
+  xy: 824, 445
+  size: 844, 1483
+  orig: 844, 1483
+  offset: 0, 0
+  index: -1
+next_def
+  rotate: false
+  xy: 224, 2
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+next_prss
+  rotate: false
+  xy: 335, 2
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+true
+  rotate: false
+  xy: 2, 445
+  size: 820, 139
+  orig: 820, 139
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 446, 2
+  size: 300, 300
+  split: 109, 103, 79, 102
+  pad: -1, -1, -1, -1
+  orig: 300, 300
+  offset: 0, 0
+  index: -1

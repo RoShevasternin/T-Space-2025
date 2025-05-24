@@ -1,0 +1,25 @@
+<resources>
+    <style name="Base.Theme.FinHolidays" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+    <style name="Theme.FinHolidays" parent="Base.Theme.FinHolidays"/>
+
+
+
+    <!-- Тема для DatePickerDialog -->
+    <style name="CustomDatePickerDialog" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Колір заголовка календаря -->
+        <item name="colorAccent">@color/c1</item>
+        <!-- Колір фону -->
+        <item name="android:windowBackground">@color/white</item>
+        <!-- Колір тексту заголовка -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+</resources>

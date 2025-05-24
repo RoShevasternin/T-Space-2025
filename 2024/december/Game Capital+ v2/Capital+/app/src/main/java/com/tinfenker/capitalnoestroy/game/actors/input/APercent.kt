@@ -1,0 +1,53 @@
+package com.tinfenker.capitalnoestroy.game.actors.input
+
+import com.badlogic.gdx.scenes.scene2d.ui.Image
+import com.badlogic.gdx.scenes.scene2d.ui.Label
+import com.badlogic.gdx.utils.Align
+import com.tinfenker.capitalnoestroy.game.actors.AButton
+import com.tinfenker.capitalnoestroy.game.actors.progress.AYellowProgress
+import com.tinfenker.capitalnoestroy.game.utils.advanced.AdvancedGroup
+import com.tinfenker.capitalnoestroy.game.utils.advanced.AdvancedScreen
+import com.tinfenker.capitalnoestroy.game.utils.runGDX
+import kotlinx.coroutines.launch
+import kotlin.math.roundToInt
+
+class APercent(
+    override val screen: AdvancedScreen,
+    val ls53: Label.LabelStyle,
+) : AdvancedGroup() {
+
+    private val imgPanel = Image(screen.game.all.percent)
+    private val shkala   = Image(screen.game.all._0_100)
+    private val progress = AYellowProgress(screen)
+    private val btnDone  = AButton(screen, AButton.Static.Type.Done)
+    private val lblNum   = Label("0", ls53)
+
+    var blockProgress: (Int) -> Unit = {}
+    var blockDone    : () -> Unit = {}
+
+    override fun addActorsOnGroup() {
+        addActors(imgPanel, shkala, progress, btnDone, lblNum)
+        imgPanel.setBounds(0f,602f,265f,139f)
+        shkala.setBounds(0f,354f,517f,28f)
+        progress.apply {
+            setBounds(0f,293f,516f,45f)
+
+            coroutine?.launch {
+                progressPercentFlow.collect { runGDX {
+                    val result = (it).roundToInt()
+                    lblNum.setText(result)
+                    blockProgress(result)
+                } }
+            }
+        }
+        btnDone.apply {
+            setBounds(175f,0f,166f,94f)
+            setOnClickListener { blockDone() }
+        }
+        lblNum.apply {
+            setBounds(0f,602f,206f,95f)
+            setAlignment(Align.center)
+        }
+    }
+
+}

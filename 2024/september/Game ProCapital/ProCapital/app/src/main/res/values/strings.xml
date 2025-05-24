@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ПроКапитал</string>
+
+    <string-array name="professions">
+        <item>Врач</item>
+        <item>Фотограф</item>
+        <item>Инженер</item>
+        <item>Космонавт</item>
+        <item>Повар</item>
+        <item>Полицейский</item>
+        <item>Пилот</item>
+        <item>Ученый</item>
+    </string-array>
+</resources>

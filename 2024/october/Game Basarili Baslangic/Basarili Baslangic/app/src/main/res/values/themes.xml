@@ -1,0 +1,10 @@
+<resources>
+    <style name="Base.Theme.BasariliBaslangic" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/brawn</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:navigationBarColor">@color/brawn</item>
+        <item name="android:statusBarColor">@color/brawn</item>
+    </style>
+
+    <style name="Theme.BasariliBaslangic" parent="Base.Theme.BasariliBaslangic"/>
+</resources>

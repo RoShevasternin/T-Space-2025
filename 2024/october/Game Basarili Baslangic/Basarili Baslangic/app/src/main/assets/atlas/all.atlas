@@ -1,0 +1,117 @@
+all.png
+size: 1877, 1333
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+balance_panel_center
+  rotate: false
+  xy: 115, 2
+  size: 879, 126
+  orig: 879, 126
+  offset: 0, 0
+  index: -1
+balance_panel_left
+  rotate: false
+  xy: 996, 2
+  size: 879, 126
+  orig: 879, 126
+  offset: 0, 0
+  index: -1
+btn_hello_def
+  rotate: false
+  xy: 2, 130
+  size: 880, 154
+  orig: 880, 154
+  offset: 0, 0
+  index: -1
+btn_hello_press
+  rotate: false
+  xy: 884, 130
+  size: 880, 154
+  orig: 880, 154
+  offset: 0, 0
+  index: -1
+closed
+  rotate: false
+  xy: 1370, 811
+  size: 426, 520
+  orig: 426, 520
+  offset: 0, 0
+  index: -1
+dukan_def
+  rotate: false
+  xy: 775, 456
+  size: 279, 279
+  orig: 279, 279
+  offset: 0, 0
+  index: -1
+dukan_press
+  rotate: false
+  xy: 1056, 456
+  size: 279, 279
+  orig: 279, 279
+  offset: 0, 0
+  index: -1
+gari_gel_def
+  rotate: false
+  xy: 2, 286
+  size: 490, 168
+  orig: 490, 168
+  offset: 0, 0
+  index: -1
+gari_gel_press
+  rotate: false
+  xy: 494, 286
+  size: 490, 168
+  orig: 490, 168
+  offset: 0, 0
+  index: -1
+gas
+  rotate: false
+  xy: 2, 2
+  size: 111, 112
+  orig: 111, 112
+  offset: 0, 0
+  index: -1
+gaz_satmak_def
+  rotate: false
+  xy: 986, 286
+  size: 490, 168
+  orig: 490, 168
+  offset: 0, 0
+  index: -1
+gaz_satmak_press
+  rotate: false
+  xy: 2, 456
+  size: 490, 168
+  orig: 490, 168
+  offset: 0, 0
+  index: -1
+hand_big
+  rotate: false
+  xy: 967, 811
+  size: 401, 447
+  orig: 401, 447
+  offset: 0, 0
+  index: -1
+hand_mini
+  rotate: false
+  xy: 1337, 456
+  size: 374, 353
+  orig: 374, 353
+  offset: 0, 0
+  index: -1
+panel_lvl
+  rotate: false
+  xy: 494, 456
+  size: 279, 168
+  orig: 279, 168
+  offset: 0, 0
+  index: -1
+text_hello
+  rotate: false
+  xy: 2, 811
+  size: 963, 374
+  orig: 963, 374
+  offset: 0, 0
+  index: -1

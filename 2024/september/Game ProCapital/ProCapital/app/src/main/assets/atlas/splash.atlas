@@ -1,0 +1,26 @@
+splash.png
+size: 425, 199
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+logo
+  rotate: false
+  xy: 2, 2
+  size: 421, 145
+  orig: 421, 145
+  offset: 0, 0
+  index: -1
+progress
+  rotate: false
+  xy: 2, 149
+  size: 420, 23
+  orig: 420, 23
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 2, 174
+  size: 420, 23
+  orig: 420, 23
+  offset: 0, 0
+  index: -1

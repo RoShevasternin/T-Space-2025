@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ИнвестЭксперт</string>
+    <string name="btn_text">Основное</string>
+
+    <string name="daily_notifications">Daily notifications</string>
+    <string name="daily_notifications_discription">Serves for daily notifications and reminders of the application</string>
+</resources>

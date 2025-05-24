@@ -1,0 +1,82 @@
+all.png
+size: 1016, 1982
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+add_def
+  rotate: false
+  xy: 2, 2
+  size: 809, 108
+  orig: 809, 108
+  offset: 0, 0
+  index: -1
+add_press
+  rotate: false
+  xy: 2, 112
+  size: 809, 108
+  orig: 809, 108
+  offset: 0, 0
+  index: -1
+add_sum_def
+  rotate: false
+  xy: 2, 222
+  size: 809, 109
+  orig: 809, 109
+  offset: 0, 0
+  index: -1
+add_sum_press
+  rotate: false
+  xy: 2, 333
+  size: 809, 109
+  orig: 809, 109
+  offset: 0, 0
+  index: -1
+frame
+  rotate: false
+  xy: 2, 444
+  size: 891, 335
+  orig: 891, 335
+  offset: 0, 0
+  index: -1
+m_def
+  rotate: false
+  xy: 2, 781
+  size: 967, 257
+  orig: 967, 257
+  offset: 0, 0
+  index: -1
+m_home
+  rotate: false
+  xy: 2, 1040
+  size: 967, 257
+  orig: 967, 257
+  offset: 0, 0
+  index: -1
+m_hystory
+  rotate: false
+  xy: 2, 1299
+  size: 967, 257
+  orig: 967, 257
+  offset: 0, 0
+  index: -1
+progress
+  rotate: false
+  xy: 2, 1558
+  size: 809, 28
+  orig: 809, 28
+  offset: 0, 0
+  index: -1
+top
+  rotate: false
+  xy: 2, 1588
+  size: 1012, 270
+  orig: 1012, 270
+  offset: 0, 0
+  index: -1
+your_poezd
+  rotate: false
+  xy: 2, 1860
+  size: 891, 120
+  orig: 891, 120
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,47 @@
+buildings.png
+size: 494, 1336
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 130, 207
+  size: 349, 389
+  orig: 349, 389
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 2
+  size: 206, 154
+  orig: 206, 154
+  offset: 0, 0
+  index: -1
+3
+  rotate: false
+  xy: 322, 2
+  size: 167, 203
+  orig: 167, 203
+  offset: 0, 0
+  index: -1
+4
+  rotate: false
+  xy: 210, 2
+  size: 110, 154
+  orig: 110, 154
+  offset: 0, 0
+  index: -1
+5
+  rotate: false
+  xy: 2, 207
+  size: 126, 271
+  orig: 126, 271
+  offset: 0, 0
+  index: -1
+6
+  rotate: false
+  xy: 2, 598
+  size: 490, 736
+  orig: 490, 736
+  offset: 0, 0
+  index: -1

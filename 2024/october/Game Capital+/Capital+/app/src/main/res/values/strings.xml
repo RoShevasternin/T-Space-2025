@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Капитал+</string>
+
+    <string-array name="banner_titles">
+        <item>Общий портфель</item>
+        <item>Прибыль за месяц</item>
+        <item>Прибыль за неделю</item>
+    </string-array>
+</resources>

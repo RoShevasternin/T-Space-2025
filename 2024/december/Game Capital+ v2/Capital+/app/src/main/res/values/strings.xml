@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Капитал+</string>
+
+    <string-array name="banner_titles">
+        <item>Общий портфель</item>
+        <item>Прибыль за месяц</item>
+        <item>Прибыль за неделю</item>
+    </string-array>
+
+    <string name="daily_notifications">Daily notifications</string>
+    <string name="daily_notifications_discription">Serves for daily notifications and reminders of the application</string>
+
+</resources>

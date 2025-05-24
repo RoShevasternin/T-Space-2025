@@ -1,0 +1,40 @@
+splash.png
+size: 852, 1510
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+loader
+  rotate: false
+  xy: 2, 2
+  size: 102, 104
+  orig: 102, 104
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 106, 2
+  size: 200, 124
+  orig: 200, 124
+  offset: 0, 0
+  index: -1
+panel
+  rotate: false
+  xy: 2, 838
+  size: 638, 670
+  orig: 638, 670
+  offset: 0, 0
+  index: -1
+post_gotovo
+  rotate: false
+  xy: 308, 2
+  size: 542, 416
+  orig: 542, 416
+  offset: 0, 0
+  index: -1
+proidite_test
+  rotate: false
+  xy: 2, 420
+  size: 542, 416
+  orig: 542, 416
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,61 @@
+privacy.png
+size: 1105, 1346
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+privacy_policy_def_1
+  rotate: false
+  xy: 2, 2
+  size: 1101, 166
+  orig: 1101, 166
+  offset: 0, 0
+  index: -1
+privacy_policy_def_2
+  rotate: false
+  xy: 2, 170
+  size: 1101, 166
+  orig: 1101, 166
+  offset: 0, 0
+  index: -1
+privacy_policy_def_3
+  rotate: false
+  xy: 2, 338
+  size: 1101, 166
+  orig: 1101, 166
+  offset: 0, 0
+  index: -1
+privacy_policy_def_4
+  rotate: false
+  xy: 2, 506
+  size: 1101, 166
+  orig: 1101, 166
+  offset: 0, 0
+  index: -1
+privacy_policy_press_1
+  rotate: false
+  xy: 2, 674
+  size: 1101, 166
+  orig: 1101, 166
+  offset: 0, 0
+  index: -1
+privacy_policy_press_2
+  rotate: false
+  xy: 2, 842
+  size: 1101, 166
+  orig: 1101, 166
+  offset: 0, 0
+  index: -1
+privacy_policy_press_3
+  rotate: false
+  xy: 2, 1010
+  size: 1101, 166
+  orig: 1101, 166
+  offset: 0, 0
+  index: -1
+privacy_policy_press_4
+  rotate: false
+  xy: 2, 1178
+  size: 1101, 166
+  orig: 1101, 166
+  offset: 0, 0
+  index: -1

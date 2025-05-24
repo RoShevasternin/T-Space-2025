@@ -1,0 +1,9 @@
+<resources>
+    <style name="Base.Theme.TNKConveyor" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+    <style name="Theme.TNKConveyor" parent="Base.Theme.TNKConveyor"/>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <style name="Base.Theme.FinancialGuide" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/loader</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:navigationBarColor">@color/yellow</item>
+        <item name="android:statusBarColor">@color/yellow</item>
+    </style>
+
+    <style name="Theme.FinancialGuide" parent="Base.Theme.FinancialGuide"/>
+</resources>
