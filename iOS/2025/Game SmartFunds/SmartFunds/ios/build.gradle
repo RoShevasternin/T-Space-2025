@@ -1,0 +1,54 @@
+buildscript {
+  repositories {
+    mavenCentral()
+  }
+  dependencies {
+    classpath "com.mobidevelop.robovm:robovm-gradle-plugin:$robovmVersion"
+  }
+}
+
+apply plugin: 'robovm'
+apply plugin: 'org.jetbrains.kotlin.plugin.serialization'
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+ext {
+  mainClassName = "com.smarteca.foundsender.IOSLauncher"
+}
+
+launchIPhoneSimulator.dependsOn build
+launchIPadSimulator.dependsOn build
+launchIOSDevice.dependsOn build
+createIPA.dependsOn build
+
+dependencies {
+  implementation "com.badlogicgames.gdx:gdx-backend-robovm:$gdxVersion"
+  implementation "com.badlogicgames.gdx:gdx-freetype-platform:$gdxVersion:natives-ios"
+  implementation "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-ios"
+  implementation "com.mobidevelop.robovm:robovm-cocoatouch:$robovmVersion"
+  implementation "com.mobidevelop.robovm:robovm-rt:$robovmVersion"
+
+  implementation "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
+  implementation "com.badlogicgames.gdx:gdx:$gdxVersion"
+  implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion"
+
+  implementation "space.earlygrey:shapedrawer:2.6.0"
+
+  implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1"
+  implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.0"
+
+  implementation "io.github.dkimitsa.robovm:robopods-appsflyer-ios:1.47.0-SNAPSHOT"
+
+}
+
+//B173434B3EF6FAAA4AD288A213FFD190334408E7
+//9a1287c4-c243-4c84-973e-9ebd156c47f1
+
+robovm {
+  //iosSignIdentity = "B173434B3EF6FAAAAAAAAAAAAD190334408E7"
+  //iosProvisioningProfile = "9a1287c4-c243-4c84-99999-9ebd156c47f1"
+  iosSkipSigning = true
+  archs = "arm64"
+}
+
+

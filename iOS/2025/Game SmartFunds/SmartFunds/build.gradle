@@ -1,0 +1,55 @@
+buildscript {
+  repositories {
+    mavenLocal() // 1. Спочатку шукаємо у локальному кеші (це прискорює роботу)
+    mavenCentral() // 2. Головне сховище для більшості бібліотек
+    google() // 3. Використовується для Android (хоча на iOS не обов’язково)
+    gradlePluginPortal() // 4. Для Gradle-плагінів
+    maven { url 'https://s01.oss.sonatype.org' } // 5. Альтернативний репозиторій Sonatype
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' } // 6. Снапшоти Sonatype
+    maven { url 'https://s01.oss.sonatype.org/content/repositories/snapshots/' } // 7. Дублює попередній, може бути непотрібним
+  }
+  dependencies {
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+    classpath "org.jetbrains.kotlin:kotlin-serialization:$kotlinVersion"
+  }
+}
+
+allprojects {
+  apply plugin: 'idea'
+  apply plugin: 'kotlin'
+
+  // This allows you to "Build and run using IntelliJ IDEA", an option in IDEA's Settings.
+  idea {
+    module {
+      outputDir file('build/classes/java/main')
+      testOutputDir file('build/classes/java/test')
+    }
+  }
+}
+
+configure(subprojects) {
+  apply plugin: 'kotlin'
+
+  sourceCompatibility = JavaVersion.VERSION_1_8
+  targetCompatibility = JavaVersion.VERSION_1_8
+
+  compileJava {
+    options.incremental = true
+  }
+  compileKotlin.compilerOptions.jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_1_8)
+  compileTestKotlin.compilerOptions.jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_1_8)
+
+}
+
+subprojects {
+  version = "$projectVersion"
+  ext.appName = 'SmartFunds'
+
+  repositories {
+    mavenCentral()
+    maven { url 'https://s01.oss.sonatype.org' }
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
+    maven { url 'https://s01.oss.sonatype.org/content/repositories/snapshots/' }
+    maven { url 'https://jitpack.io' }
+  }
+}

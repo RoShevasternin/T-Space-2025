@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Financial Strategist</string>
+
+    <string-array name="roshod_items">
+        <item>Жилье</item>
+        <item>Питание</item>
+        <item>Транспорт</item>
+        <item>Здоровье</item>
+        <item>Одежда</item>
+        <item>Образование</item>
+        <item>Досуг</item>
+        <item>Спорт</item>
+        <item>Подписки</item>
+    </string-array>
+
+    <string-array name="dohod_items">
+        <item>Зарплата</item>
+        <item>Фриланс</item>
+        <item>Подарок</item>
+    </string-array>
+</resources>

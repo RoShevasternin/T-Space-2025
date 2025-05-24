@@ -1,0 +1,26 @@
+loader.png
+size: 911, 423
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+loader
+  rotate: false
+  xy: 2, 2
+  size: 907, 263
+  orig: 907, 263
+  offset: 0, 0
+  index: -1
+progress
+  rotate: false
+  xy: 2, 267
+  size: 907, 12
+  orig: 907, 12
+  offset: 0, 0
+  index: -1
+wallet
+  rotate: false
+  xy: 2, 281
+  size: 127, 140
+  orig: 127, 140
+  offset: 0, 0
+  index: -1

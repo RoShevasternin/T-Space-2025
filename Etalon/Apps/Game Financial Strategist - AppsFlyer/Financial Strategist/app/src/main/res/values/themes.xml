@@ -1,0 +1,40 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FinancialStrategist" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/main</item>
+        <item name="android:navigationBarColor">@color/main</item>
+        <item name="android:statusBarColor">@color/main</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.FinancialStrategist" parent="Base.Theme.FinancialStrategist"/>
+
+    <!-- Тема для DatePickerDialog -->
+    <style name="CustomDatePickerDialog" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Колір заголовка календаря -->
+        <item name="colorAccent">@color/green</item>
+        <!-- Колір фону -->
+        <item name="android:windowBackground">@color/main</item>
+        <!-- Колір тексту заголовка -->
+        <item name="android:textColorPrimary">@color/text</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- Тема для CustomAlertDialog -->
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Колір заголовка календаря -->
+        <item name="colorAccent">@color/green</item>
+        <!-- Колір фону -->
+        <item name="android:windowBackground">@color/main</item>
+        <!-- Колір тексту заголовка -->
+        <item name="android:textColorPrimary">@color/text</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- Тема для CustomEditText -->
+    <style name="CustomEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textColorHint">@color/text50</item>
+    </style>
+
+</resources>

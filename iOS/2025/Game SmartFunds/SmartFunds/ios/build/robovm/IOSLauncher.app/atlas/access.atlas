@@ -1,0 +1,40 @@
+access.png
+size: 1436, 140
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+allow_def
+  rotate: false
+  xy: 2, 2
+  size: 396, 67
+  orig: 396, 67
+  offset: 0, 0
+  index: -1
+allow_press
+  rotate: false
+  xy: 400, 2
+  size: 396, 67
+  orig: 396, 67
+  offset: 0, 0
+  index: -1
+ask_not_def
+  rotate: false
+  xy: 798, 2
+  size: 526, 67
+  orig: 526, 67
+  offset: 0, 0
+  index: -1
+ask_not_press
+  rotate: false
+  xy: 2, 71
+  size: 526, 67
+  orig: 526, 67
+  offset: 0, 0
+  index: -1
+you_can_cancel
+  rotate: false
+  xy: 530, 71
+  size: 904, 66
+  orig: 904, 66
+  offset: 0, 0
+  index: -1

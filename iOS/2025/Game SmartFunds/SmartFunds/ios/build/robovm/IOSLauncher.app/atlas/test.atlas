@@ -1,0 +1,75 @@
+test.png
+size: 1319, 1369
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+all_test_def
+  rotate: false
+  xy: 1013, 2
+  size: 264, 133
+  orig: 264, 133
+  offset: 0, 0
+  index: -1
+all_test_press
+  rotate: false
+  xy: 2, 137
+  size: 264, 133
+  orig: 264, 133
+  offset: 0, 0
+  index: -1
+circle
+  rotate: false
+  xy: 968, 2
+  size: 43, 43
+  orig: 43, 43
+  offset: 0, 0
+  index: -1
+green
+  rotate: false
+  xy: 268, 137
+  size: 1049, 181
+  orig: 1049, 181
+  offset: 0, 0
+  index: -1
+red
+  rotate: false
+  xy: 2, 320
+  size: 1049, 181
+  orig: 1049, 181
+  offset: 0, 0
+  index: -1
+test_def
+  rotate: false
+  xy: 2, 503
+  size: 1049, 194
+  orig: 1049, 194
+  offset: 0, 0
+  index: -1
+test_press
+  rotate: false
+  xy: 2, 699
+  size: 1049, 194
+  orig: 1049, 194
+  offset: 0, 0
+  index: -1
+test_progress
+  rotate: false
+  xy: 2, 2
+  size: 964, 12
+  orig: 964, 12
+  offset: 0, 0
+  index: -1
+test_with_progress_def
+  rotate: false
+  xy: 2, 895
+  size: 1049, 235
+  orig: 1049, 235
+  offset: 0, 0
+  index: -1
+test_with_progress_press
+  rotate: false
+  xy: 2, 1132
+  size: 1049, 235
+  orig: 1049, 235
+  offset: 0, 0
+  index: -1
