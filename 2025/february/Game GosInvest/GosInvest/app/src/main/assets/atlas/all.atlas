@@ -1,0 +1,138 @@
+all.png
+size: 1978, 860
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+all_def
+  rotate: false
+  xy: 1340, 132
+  size: 636, 170
+  orig: 636, 170
+  offset: 0, 0
+  index: -1
+all_press
+  rotate: false
+  xy: 2, 304
+  size: 636, 170
+  orig: 636, 170
+  offset: 0, 0
+  index: -1
+ans_def
+  rotate: false
+  xy: 201, 2
+  size: 458, 117
+  orig: 458, 117
+  offset: 0, 0
+  index: -1
+ans_press
+  rotate: false
+  xy: 661, 2
+  size: 458, 117
+  orig: 458, 117
+  offset: 0, 0
+  index: -1
+back_def
+  rotate: false
+  xy: 27, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+back_press
+  rotate: false
+  xy: 114, 2
+  size: 85, 85
+  orig: 85, 85
+  offset: 0, 0
+  index: -1
+circle
+  rotate: false
+  xy: 2, 2
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+quiz_01_def
+  rotate: false
+  xy: 1177, 304
+  size: 319, 276
+  orig: 319, 276
+  offset: 0, 0
+  index: -1
+quiz_01_press
+  rotate: false
+  xy: 1498, 304
+  size: 319, 276
+  orig: 319, 276
+  offset: 0, 0
+  index: -1
+quiz_02_def
+  rotate: false
+  xy: 2, 582
+  size: 318, 276
+  orig: 318, 276
+  offset: 0, 0
+  index: -1
+quiz_02_press
+  rotate: false
+  xy: 322, 582
+  size: 318, 276
+  orig: 318, 276
+  offset: 0, 0
+  index: -1
+quiz_03_def
+  rotate: false
+  xy: 642, 582
+  size: 319, 276
+  orig: 319, 276
+  offset: 0, 0
+  index: -1
+quiz_03_press
+  rotate: false
+  xy: 963, 582
+  size: 319, 276
+  orig: 319, 276
+  offset: 0, 0
+  index: -1
+random_def
+  rotate: false
+  xy: 1284, 582
+  size: 318, 276
+  orig: 318, 276
+  offset: 0, 0
+  index: -1
+random_press
+  rotate: false
+  xy: 1604, 582
+  size: 318, 276
+  orig: 318, 276
+  offset: 0, 0
+  index: -1
+select
+  rotate: false
+  xy: 703, 132
+  size: 635, 168
+  orig: 635, 168
+  offset: 0, 0
+  index: -1
+title
+  rotate: false
+  xy: 640, 304
+  size: 535, 184
+  orig: 535, 184
+  offset: 0, 0
+  index: -1
+to_main_def
+  rotate: false
+  xy: 1121, 2
+  size: 699, 128
+  orig: 699, 128
+  offset: 0, 0
+  index: -1
+to_main_press
+  rotate: false
+  xy: 2, 132
+  size: 699, 128
+  orig: 699, 128
+  offset: 0, 0
+  index: -1

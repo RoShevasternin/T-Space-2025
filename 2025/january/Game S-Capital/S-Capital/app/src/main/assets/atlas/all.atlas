@@ -1,0 +1,166 @@
+all.png
+size: 1839, 1121
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+add_doh_ros_def
+  rotate: false
+  xy: 1149, 198
+  size: 685, 125
+  orig: 685, 125
+  offset: 0, 0
+  index: -1
+add_doh_ros_press
+  rotate: false
+  xy: 2, 325
+  size: 685, 125
+  orig: 685, 125
+  offset: 0, 0
+  index: -1
+blog_def
+  rotate: false
+  xy: 1242, 99
+  size: 107, 96
+  orig: 107, 96
+  offset: 0, 0
+  index: -1
+blog_press
+  rotate: false
+  xy: 1351, 99
+  size: 107, 96
+  orig: 107, 96
+  offset: 0, 0
+  index: -1
+box_expense
+  rotate: false
+  xy: 2, 99
+  size: 618, 71
+  orig: 618, 71
+  offset: 0, 0
+  index: -1
+box_income
+  rotate: false
+  xy: 622, 99
+  size: 618, 71
+  orig: 618, 71
+  offset: 0, 0
+  index: -1
+btn_desire
+  rotate: false
+  xy: 689, 325
+  size: 452, 133
+  orig: 452, 133
+  offset: 0, 0
+  index: -1
+color_1
+  rotate: false
+  xy: 478, 2
+  size: 685, 41
+  orig: 685, 41
+  offset: 0, 0
+  index: -1
+color_2
+  rotate: false
+  xy: 2, 45
+  size: 685, 41
+  orig: 685, 41
+  offset: 0, 0
+  index: -1
+color_3
+  rotate: false
+  xy: 689, 45
+  size: 685, 41
+  orig: 685, 41
+  offset: 0, 0
+  index: -1
+delete_def
+  rotate: false
+  xy: 1376, 45
+  size: 48, 52
+  orig: 48, 52
+  offset: 0, 0
+  index: -1
+delete_press
+  rotate: false
+  xy: 1426, 45
+  size: 48, 52
+  orig: 48, 52
+  offset: 0, 0
+  index: -1
+desc
+  rotate: false
+  xy: 1143, 325
+  size: 641, 174
+  orig: 641, 174
+  offset: 0, 0
+  index: -1
+Desire
+  rotate: false
+  xy: 2, 501
+  size: 828, 492
+  orig: 828, 492
+  offset: 0, 0
+  index: -1
+IncomeExpense
+  rotate: false
+  xy: 832, 501
+  size: 828, 618
+  orig: 828, 618
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 1460, 99
+  size: 377, 97
+  orig: 377, 97
+  offset: 0, 0
+  index: -1
+main_def
+  rotate: false
+  xy: 2, 198
+  size: 115, 105
+  orig: 115, 105
+  offset: 0, 0
+  index: -1
+main_press
+  rotate: false
+  xy: 119, 198
+  size: 115, 105
+  orig: 115, 105
+  offset: 0, 0
+  index: -1
+plus_def
+  rotate: false
+  xy: 236, 198
+  size: 111, 112
+  orig: 111, 112
+  offset: 0, 0
+  index: -1
+plus_press
+  rotate: false
+  xy: 349, 198
+  size: 111, 112
+  orig: 111, 112
+  offset: 0, 0
+  index: -1
+see_all_def
+  rotate: false
+  xy: 2, 2
+  size: 236, 33
+  orig: 236, 33
+  offset: 0, 0
+  index: -1
+see_all_press
+  rotate: false
+  xy: 240, 2
+  size: 236, 33
+  orig: 236, 33
+  offset: 0, 0
+  index: -1
+your_desire
+  rotate: false
+  xy: 462, 198
+  size: 685, 115
+  orig: 685, 115
+  offset: 0, 0
+  index: -1

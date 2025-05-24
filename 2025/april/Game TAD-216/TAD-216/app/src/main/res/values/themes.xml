@@ -1,0 +1,8 @@
+<resources>
+    <style name="Base.Theme.SBActive" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+
+    <style name="Theme.SBActive" parent="Base.Theme.SBActive"/>
+</resources>

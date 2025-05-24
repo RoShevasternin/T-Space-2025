@@ -1,0 +1,103 @@
+all.png
+size: 938, 1464
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+botom
+  rotate: false
+  xy: 2, 938
+  size: 865, 185
+  orig: 865, 185
+  offset: 0, 0
+  index: -1
+box_prodaja
+  rotate: false
+  xy: 2, 98
+  size: 391, 94
+  orig: 391, 94
+  offset: 0, 0
+  index: -1
+box_tovar
+  rotate: false
+  xy: 395, 98
+  size: 391, 94
+  orig: 391, 94
+  offset: 0, 0
+  index: -1
+i1_def
+  rotate: false
+  xy: 192, 2
+  size: 105, 88
+  orig: 105, 88
+  offset: 0, 0
+  index: -1
+i1_press
+  rotate: false
+  xy: 299, 2
+  size: 105, 88
+  orig: 105, 88
+  offset: 0, 0
+  index: -1
+i2_def
+  rotate: false
+  xy: 406, 2
+  size: 113, 88
+  orig: 113, 88
+  offset: 0, 0
+  index: -1
+i2_press
+  rotate: false
+  xy: 521, 2
+  size: 113, 88
+  orig: 113, 88
+  offset: 0, 0
+  index: -1
+i3_def
+  rotate: false
+  xy: 636, 2
+  size: 149, 86
+  orig: 149, 86
+  offset: 0, 0
+  index: -1
+i3_press
+  rotate: false
+  xy: 787, 2
+  size: 149, 86
+  orig: 149, 86
+  offset: 0, 0
+  index: -1
+item_prodaja
+  rotate: false
+  xy: 2, 194
+  size: 797, 370
+  orig: 797, 370
+  offset: 0, 0
+  index: -1
+item_tovar
+  rotate: false
+  xy: 2, 566
+  size: 797, 370
+  orig: 797, 370
+  offset: 0, 0
+  index: -1
+plus_def
+  rotate: false
+  xy: 2, 2
+  size: 93, 94
+  orig: 93, 94
+  offset: 0, 0
+  index: -1
+plus_press
+  rotate: false
+  xy: 97, 2
+  size: 93, 94
+  orig: 93, 94
+  offset: 0, 0
+  index: -1
+topor
+  rotate: false
+  xy: 2, 1125
+  size: 865, 337
+  orig: 865, 337
+  offset: 0, 0
+  index: -1

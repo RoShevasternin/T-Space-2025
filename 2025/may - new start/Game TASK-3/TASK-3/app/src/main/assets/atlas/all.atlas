@@ -1,0 +1,82 @@
+all.png
+size: 1923, 521
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+barel
+  rotate: false
+  xy: 1666, 300
+  size: 255, 219
+  orig: 255, 219
+  offset: 0, 0
+  index: -1
+btn_def
+  rotate: false
+  xy: 856, 144
+  size: 820, 154
+  orig: 820, 154
+  offset: 0, 0
+  index: -1
+btn_press
+  rotate: false
+  xy: 2, 300
+  size: 820, 154
+  orig: 820, 154
+  offset: 0, 0
+  index: -1
+gel_def
+  rotate: false
+  xy: 1045, 2
+  size: 426, 140
+  orig: 426, 140
+  offset: 0, 0
+  index: -1
+gel_press
+  rotate: false
+  xy: 1473, 2
+  size: 426, 140
+  orig: 426, 140
+  offset: 0, 0
+  index: -1
+nafta_def
+  rotate: false
+  xy: 2, 144
+  size: 425, 140
+  orig: 425, 140
+  offset: 0, 0
+  index: -1
+nafta_press
+  rotate: false
+  xy: 429, 144
+  size: 425, 140
+  orig: 425, 140
+  offset: 0, 0
+  index: -1
+rd_def
+  rotate: false
+  xy: 824, 300
+  size: 279, 168
+  orig: 279, 168
+  offset: 0, 0
+  index: -1
+rd_press
+  rotate: false
+  xy: 1105, 300
+  size: 279, 168
+  orig: 279, 168
+  offset: 0, 0
+  index: -1
+toper
+  rotate: false
+  xy: 2, 2
+  size: 1041, 126
+  orig: 1041, 126
+  offset: 0, 0
+  index: -1
+wht
+  rotate: false
+  xy: 1386, 300
+  size: 278, 168
+  orig: 278, 168
+  offset: 0, 0
+  index: -1

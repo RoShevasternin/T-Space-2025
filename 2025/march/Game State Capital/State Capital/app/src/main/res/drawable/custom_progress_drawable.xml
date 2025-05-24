@@ -1,0 +1,24 @@
+<!-- res/drawable/custom_progress_drawable.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Фоновый слой (серый) -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/gray"/> <!-- Серый цвет -->
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+
+    <!-- Заполненная часть (красная) -->
+    <item>
+        <clip>
+            <shape>
+                <gradient
+                    android:startColor="#12A643"
+                    android:endColor="#45E18B"
+                    android:angle="0" />
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>

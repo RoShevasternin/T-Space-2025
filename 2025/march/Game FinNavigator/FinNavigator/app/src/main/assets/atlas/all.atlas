@@ -1,0 +1,152 @@
+all.png
+size: 978, 974
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+calcul_def
+  rotate: false
+  xy: 2, 516
+  size: 242, 92
+  orig: 242, 92
+  offset: 0, 0
+  index: -1
+calcul_press
+  rotate: false
+  xy: 246, 516
+  size: 242, 92
+  orig: 242, 92
+  offset: 0, 0
+  index: -1
+close
+  rotate: false
+  xy: 2, 2
+  size: 24, 22
+  orig: 24, 22
+  offset: 0, 0
+  index: -1
+golovna_def
+  rotate: false
+  xy: 490, 516
+  size: 242, 92
+  orig: 242, 92
+  offset: 0, 0
+  index: -1
+golovna_press
+  rotate: false
+  xy: 734, 516
+  size: 242, 92
+  orig: 242, 92
+  offset: 0, 0
+  index: -1
+history_def
+  rotate: false
+  xy: 2, 610
+  size: 242, 92
+  orig: 242, 92
+  offset: 0, 0
+  index: -1
+history_press
+  rotate: false
+  xy: 246, 610
+  size: 242, 92
+  orig: 242, 92
+  offset: 0, 0
+  index: -1
+list
+  rotate: false
+  xy: 808, 610
+  size: 165, 362
+  orig: 165, 362
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 490, 610
+  size: 316, 94
+  orig: 316, 94
+  offset: 0, 0
+  index: -1
+open
+  rotate: false
+  xy: 28, 2
+  size: 24, 22
+  orig: 24, 22
+  offset: 0, 0
+  index: -1
+ras_def
+  rotate: false
+  xy: 254, 79
+  size: 610, 84
+  orig: 610, 84
+  offset: 0, 0
+  index: -1
+ras_press
+  rotate: false
+  xy: 2, 165
+  size: 610, 84
+  orig: 610, 84
+  offset: 0, 0
+  index: -1
+rasss_def
+  rotate: false
+  xy: 2, 251
+  size: 610, 84
+  orig: 610, 84
+  offset: 0, 0
+  index: -1
+rasss_press
+  rotate: false
+  xy: 2, 337
+  size: 610, 84
+  orig: 610, 84
+  offset: 0, 0
+  index: -1
+remove_def
+  rotate: false
+  xy: 54, 2
+  size: 250, 75
+  orig: 250, 75
+  offset: 0, 0
+  index: -1
+remove_press
+  rotate: false
+  xy: 306, 2
+  size: 250, 75
+  orig: 250, 75
+  offset: 0, 0
+  index: -1
+restart_def
+  rotate: false
+  xy: 613, 423
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+restart_press
+  rotate: false
+  xy: 706, 423
+  size: 91, 91
+  orig: 91, 91
+  offset: 0, 0
+  index: -1
+save_def
+  rotate: false
+  xy: 558, 2
+  size: 250, 75
+  orig: 250, 75
+  offset: 0, 0
+  index: -1
+save_press
+  rotate: false
+  xy: 2, 79
+  size: 250, 75
+  orig: 250, 75
+  offset: 0, 0
+  index: -1
+yellow_title
+  rotate: false
+  xy: 2, 423
+  size: 609, 84
+  orig: 609, 84
+  offset: 0, 0
+  index: -1

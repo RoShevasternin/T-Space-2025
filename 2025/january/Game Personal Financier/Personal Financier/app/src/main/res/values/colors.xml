@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="green">#5065CD85</color>
+    <color name="lvl_1">#50B2D3CF</color>
+    <color name="lvl_2">#50E0A19B</color>
+    <color name="lvl_3">#50E5C299</color>
+    <color name="lvl_4">#50A5C6D4</color>
+</resources>

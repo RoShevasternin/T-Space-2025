@@ -1,0 +1,19 @@
+loader.png
+size: 571, 245
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+logo
+  rotate: false
+  xy: 2, 2
+  size: 241, 241
+  orig: 241, 241
+  offset: 0, 0
+  index: -1
+title
+  rotate: false
+  xy: 245, 2
+  size: 324, 200
+  orig: 324, 200
+  offset: 0, 0
+  index: -1

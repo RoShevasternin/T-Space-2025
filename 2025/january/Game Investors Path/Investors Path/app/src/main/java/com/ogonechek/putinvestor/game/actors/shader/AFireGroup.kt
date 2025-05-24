@@ -1,0 +1,156 @@
+package com.ogonechek.putinvestor.game.actors.shader
+
+import com.badlogic.gdx.Gdx
+import com.badlogic.gdx.graphics.*
+import com.badlogic.gdx.graphics.g2d.Batch
+import com.badlogic.gdx.graphics.g2d.TextureRegion
+import com.badlogic.gdx.graphics.glutils.FrameBuffer
+import com.badlogic.gdx.graphics.glutils.ShaderProgram
+import com.badlogic.gdx.math.Vector2
+import com.badlogic.gdx.utils.ScreenUtils
+import com.ogonechek.putinvestor.game.utils.advanced.AdvancedGroup
+import com.ogonechek.putinvestor.game.utils.advanced.AdvancedScreen
+import com.ogonechek.putinvestor.game.utils.disposeAll
+import com.ogonechek.putinvestor.util.log
+
+class AFireGroup(override val screen: AdvancedScreen): AdvancedGroup() {
+
+    companion object {
+        private var vertexShader   = Gdx.files.internal("shader/defaultVS.glsl").readString()
+        private var fragmentShader = Gdx.files.internal("shader/fireFS.glsl").readString()
+    }
+
+    private var shaderProgram: ShaderProgram? = null
+
+    private var fboGroup    : FrameBuffer? = null
+    private var textureGroup: TextureRegion? = null
+
+    private var camera = OrthographicCamera()
+
+    private var screenXInPixels      = 0
+    private var screenYInPixels      = 0
+    private var screenWidthInPixels  = 0
+    private var screenHeightInPixels = 0
+    private var screenWidthInWorld   = 0f
+    private var screenHeightInWorld  = 0f
+
+    private val globalPosition = Vector2()
+    private val tmpVector2     = Vector2(0f, 0f)
+
+
+    var time = 0f
+
+
+
+    override fun addActorsOnGroup() {
+        createShaders()
+        createFrameBuffer()
+    }
+
+    override fun draw(batch: Batch?, parentAlpha: Float) {
+        if (batch         == null ||
+            shaderProgram == null ||
+            fboGroup      == null
+        ) return
+
+        time += Gdx.graphics.deltaTime
+        time %= 10.0f
+
+        batch.end()
+
+        globalPosition.set(localToStageCoordinates(tmpVector2.set(0f, 0f)))
+        camera.position.set(
+            globalPosition.x + width / 2f,
+            globalPosition.y + height / 2f,
+            0f
+        )
+        camera.update()
+
+        // draw fboGroup -------------------------------
+
+        //SpriteBatch().setBlendFunction()
+        //batch.setBlendFunction(GL20.GL_ONE, GL20.GL_ONE_MINUS_SRC_ALPHA)
+        //batch.setBlendFunction(GL20.GL_ONE_MINUS_DST_ALPHA, GL20.GL_ONE_MINUS_SRC_ALPHA)
+        //batch.setBlendFunctionSeparate(GL20.GL_SRC_ALPHA, GL20.GL_ONE_MINUS_SRC_ALPHA, GL20.GL_SRC_ALPHA, GL20.GL_ONE)
+
+        fboGroup!!.begin()
+        ScreenUtils.clear(Color.CLEAR)
+        batch.begin()
+        batch.projectionMatrix = camera.combined
+
+        batch.setBlendFunction(GL20.GL_ONE_MINUS_DST_ALPHA, GL20.GL_ONE_MINUS_SRC_ALPHA)
+        super.draw(batch, parentAlpha)
+
+        batch.setBlendFunction(GL20.GL_SRC_ALPHA, GL20.GL_ONE_MINUS_SRC_ALPHA)
+        batch.color = Color.WHITE
+
+        batch.projectionMatrix = stage.camera.combined
+        batch.end()
+        fboGroup!!.end(screenXInPixels, screenYInPixels, screenWidthInPixels, screenHeightInPixels)
+
+        // draw Result -------------------------------
+
+        batch.begin()
+
+        batch.shader = shaderProgram
+        shaderProgram!!.setUniformf("u_time", time)
+
+        batch.draw(
+            textureGroup,
+            x, y,
+            originX, originY,
+            width, height,
+            scaleX, scaleY,
+            rotation,
+        )
+
+        batch.shader = null
+
+        batch.end()
+
+        batch.begin()
+    }
+
+    override fun dispose() {
+        super.dispose()
+        disposeAll(
+            shaderProgram,
+            fboGroup,
+        )
+    }
+
+    // Logic ------------------------------------------------------------------------
+
+    private fun createShaders() {
+        ShaderProgram.pedantic = true
+        shaderProgram = ShaderProgram(vertexShader, fragmentShader)
+
+        if (shaderProgram?.isCompiled == false) {
+            throw IllegalStateException("shader compilation failed:\n" + shaderProgram?.log)
+        }
+    }
+
+    private fun createFrameBuffer() {
+        stage.viewport.apply {
+            screenXInPixels      = screenX
+            screenYInPixels      = screenY
+            screenWidthInPixels  = screenWidth
+            screenHeightInPixels = screenHeight
+            screenWidthInWorld   = worldWidth
+            screenHeightInWorld  = worldHeight
+        }
+
+        //camera = OrthographicCamera(width, height)
+        //camera.setToOrtho(false, width, height)
+
+        camera = OrthographicCamera(width, height)
+        camera.position.set(x + (width / 2f), y + (height / 2f), 0f)
+        camera.update()
+
+        fboGroup = FrameBuffer(Pixmap.Format.RGBA8888, width.toInt(), height.toInt(), false)
+
+        textureGroup = TextureRegion(fboGroup!!.colorBufferTexture)
+        textureGroup!!.flip(false, true)
+    }
+
+}

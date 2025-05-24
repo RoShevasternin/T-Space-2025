@@ -1,0 +1,11 @@
+<resources>
+    <style name="Base.Theme.GPExpert" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@drawable/loader</item>
+
+        <item name="android:statusBarColor">@color/top</item>
+        <item name="android:navigationBarColor">@color/bottom</item>
+    </style>
+
+    <style name="Theme.GPExpert" parent="Base.Theme.GPExpert"/>
+</resources>

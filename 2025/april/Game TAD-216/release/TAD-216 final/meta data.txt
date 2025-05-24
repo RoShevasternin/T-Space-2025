@@ -1,0 +1,5 @@
+alias: bagstdyaudldsfoo
+pass:  ia89asjdejqqwme
+
+policy: ---
+terms: ---

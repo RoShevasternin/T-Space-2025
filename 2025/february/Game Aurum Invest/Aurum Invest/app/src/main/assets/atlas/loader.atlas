@@ -1,0 +1,47 @@
+loader.png
+size: 753, 482
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blesk
+  rotate: false
+  xy: 2, 2
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+coin
+  rotate: false
+  xy: 26, 2
+  size: 86, 86
+  orig: 86, 86
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 114, 2
+  size: 163, 163
+  orig: 163, 163
+  offset: 0, 0
+  index: -1
+panel
+  rotate: false
+  xy: 279, 2
+  size: 472, 240
+  orig: 472, 240
+  offset: 0, 0
+  index: -1
+prog
+  rotate: false
+  xy: 2, 244
+  size: 535, 21
+  orig: 535, 21
+  offset: 0, 0
+  index: -1
+prog_pan
+  rotate: false
+  xy: 2, 267
+  size: 707, 213
+  orig: 707, 213
+  offset: 0, 0
+  index: -1

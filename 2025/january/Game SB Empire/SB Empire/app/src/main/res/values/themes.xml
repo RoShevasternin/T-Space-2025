@@ -1,0 +1,11 @@
+<resources>
+    <style name="Base.Theme.SBEmpire" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+    <style name="Theme.SBEmpire" parent="Base.Theme.SBEmpire"/>
+</resources>

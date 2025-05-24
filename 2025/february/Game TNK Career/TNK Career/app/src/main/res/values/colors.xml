@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="top">#FFE357</color>
+    <color name="bottom">#FFE357</color>
+
+    <color name="lvl_1">#BAD3B2</color>
+    <color name="lvl_2">#9BB1E0</color>
+    <color name="lvl_3">#DF99E5</color>
+    <color name="lvl_4">#D4BBA5</color>
+</resources>

@@ -1,0 +1,33 @@
+all.png
+size: 1085, 1038
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brand
+  rotate: false
+  xy: 2, 2
+  size: 1081, 383
+  orig: 1081, 383
+  offset: 0, 0
+  index: -1
+histore
+  rotate: false
+  xy: 2, 387
+  size: 1049, 252
+  orig: 1049, 252
+  offset: 0, 0
+  index: -1
+home
+  rotate: false
+  xy: 2, 641
+  size: 1049, 252
+  orig: 1049, 252
+  offset: 0, 0
+  index: -1
+tovars
+  rotate: false
+  xy: 2, 895
+  size: 1049, 141
+  orig: 1049, 141
+  offset: 0, 0
+  index: -1

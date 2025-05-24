@@ -1,0 +1,11 @@
+<resources>
+    <style name="Base.Theme.GazKZ" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/black</item>
+
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.GazKZ" parent="Base.Theme.GazKZ"/>
+</resources>

@@ -1,0 +1,26 @@
+loaderas.png
+size: 721, 355
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+initer
+  rotate: false
+  xy: 2, 2
+  size: 717, 183
+  orig: 717, 183
+  offset: 0, 0
+  index: -1
+loader
+  rotate: false
+  xy: 2, 187
+  size: 712, 63
+  orig: 712, 63
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 2, 252
+  size: 521, 101
+  orig: 521, 101
+  offset: 0, 0
+  index: -1

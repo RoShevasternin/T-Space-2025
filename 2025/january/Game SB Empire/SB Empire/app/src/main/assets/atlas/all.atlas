@@ -1,0 +1,145 @@
+all.png
+size: 972, 560
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dob_def
+  rotate: false
+  xy: 2, 347
+  size: 458, 105
+  orig: 458, 105
+  offset: 0, 0
+  index: -1
+dob_press
+  rotate: false
+  xy: 462, 347
+  size: 458, 105
+  orig: 458, 105
+  offset: 0, 0
+  index: -1
+gotodo_def
+  rotate: false
+  xy: 2, 183
+  size: 433, 80
+  orig: 433, 80
+  offset: 0, 0
+  index: -1
+gotodo_press
+  rotate: false
+  xy: 437, 183
+  size: 433, 80
+  orig: 433, 80
+  offset: 0, 0
+  index: -1
+gotope_def
+  rotate: false
+  xy: 2, 265
+  size: 433, 80
+  orig: 433, 80
+  offset: 0, 0
+  index: -1
+gotope_press
+  rotate: false
+  xy: 437, 265
+  size: 433, 80
+  orig: 433, 80
+  offset: 0, 0
+  index: -1
+inv_def
+  rotate: false
+  xy: 476, 43
+  size: 246, 138
+  orig: 246, 138
+  offset: 0, 0
+  index: -1
+inv_press
+  rotate: false
+  xy: 724, 43
+  size: 246, 138
+  orig: 246, 138
+  offset: 0, 0
+  index: -1
+p10blak
+  rotate: false
+  xy: 2, 2
+  size: 100, 39
+  orig: 100, 39
+  offset: 0, 0
+  index: -1
+p10blak15
+  rotate: false
+  xy: 104, 2
+  size: 100, 39
+  orig: 100, 39
+  offset: 0, 0
+  index: -1
+p10blak20
+  rotate: false
+  xy: 206, 2
+  size: 100, 39
+  orig: 100, 39
+  offset: 0, 0
+  index: -1
+p10blak25
+  rotate: false
+  xy: 308, 2
+  size: 100, 39
+  orig: 100, 39
+  offset: 0, 0
+  index: -1
+p10yell
+  rotate: false
+  xy: 410, 2
+  size: 101, 39
+  orig: 101, 39
+  offset: 0, 0
+  index: -1
+p10yell15
+  rotate: false
+  xy: 513, 2
+  size: 101, 39
+  orig: 101, 39
+  offset: 0, 0
+  index: -1
+p10yell20
+  rotate: false
+  xy: 616, 2
+  size: 101, 39
+  orig: 101, 39
+  offset: 0, 0
+  index: -1
+p10yell25
+  rotate: false
+  xy: 719, 2
+  size: 101, 39
+  orig: 101, 39
+  offset: 0, 0
+  index: -1
+prodav_def
+  rotate: false
+  xy: 2, 454
+  size: 458, 104
+  orig: 458, 104
+  offset: 0, 0
+  index: -1
+prodav_press
+  rotate: false
+  xy: 462, 454
+  size: 458, 104
+  orig: 458, 104
+  offset: 0, 0
+  index: -1
+uluch_def
+  rotate: false
+  xy: 2, 43
+  size: 235, 136
+  orig: 235, 136
+  offset: 0, 0
+  index: -1
+uluch_press
+  rotate: false
+  xy: 239, 43
+  size: 235, 136
+  orig: 235, 136
+  offset: 0, 0
+  index: -1

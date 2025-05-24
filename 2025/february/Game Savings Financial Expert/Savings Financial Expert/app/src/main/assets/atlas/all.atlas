@@ -1,0 +1,68 @@
+all.png
+size: 916, 858
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+home_def
+  rotate: false
+  xy: 2, 2
+  size: 214, 138
+  orig: 214, 138
+  offset: 0, 0
+  index: -1
+home_press
+  rotate: false
+  xy: 218, 2
+  size: 214, 138
+  orig: 214, 138
+  offset: 0, 0
+  index: -1
+pereezd
+  rotate: false
+  xy: 2, 142
+  size: 213, 189
+  orig: 213, 189
+  offset: 0, 0
+  index: -1
+pereezd_press
+  rotate: false
+  xy: 217, 142
+  size: 213, 189
+  orig: 213, 189
+  offset: 0, 0
+  index: -1
+redfalse
+  rotate: false
+  xy: 432, 142
+  size: 214, 202
+  orig: 214, 202
+  offset: 0, 0
+  index: -1
+to_work
+  rotate: false
+  xy: 434, 2
+  size: 214, 138
+  orig: 214, 138
+  offset: 0, 0
+  index: -1
+to_work_press
+  rotate: false
+  xy: 650, 2
+  size: 214, 138
+  orig: 214, 138
+  offset: 0, 0
+  index: -1
+tut_hand_click
+  rotate: false
+  xy: 2, 346
+  size: 380, 421
+  orig: 380, 421
+  offset: 0, 0
+  index: -1
+tutorial_hand
+  rotate: false
+  xy: 384, 346
+  size: 530, 510
+  orig: 530, 510
+  offset: 0, 0
+  index: -1

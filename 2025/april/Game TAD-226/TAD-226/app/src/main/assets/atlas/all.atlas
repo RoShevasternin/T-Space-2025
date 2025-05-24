@@ -1,0 +1,89 @@
+all.png
+size: 950, 989
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blur
+  rotate: false
+  xy: 2, 2
+  size: 767, 40
+  orig: 767, 40
+  offset: 0, 0
+  index: -1
+cir_def
+  rotate: false
+  xy: 816, 171
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1
+cir_press
+  rotate: false
+  xy: 2, 284
+  size: 111, 111
+  orig: 111, 111
+  offset: 0, 0
+  index: -1
+gelir_check
+  rotate: false
+  xy: 771, 86
+  size: 158, 83
+  orig: 158, 83
+  offset: 0, 0
+  index: -1
+gelir_def
+  rotate: false
+  xy: 2, 171
+  size: 158, 83
+  orig: 158, 83
+  offset: 0, 0
+  index: -1
+grau
+  rotate: false
+  xy: 2, 44
+  size: 767, 40
+  orig: 767, 40
+  offset: 0, 0
+  index: -1
+har_check
+  rotate: false
+  xy: 162, 171
+  size: 325, 83
+  orig: 325, 83
+  offset: 0, 0
+  index: -1
+har_def
+  rotate: false
+  xy: 489, 171
+  size: 325, 83
+  orig: 325, 83
+  offset: 0, 0
+  index: -1
+input
+  rotate: false
+  xy: 2, 464
+  size: 668, 249
+  orig: 668, 249
+  offset: 0, 0
+  index: -1
+menu
+  rotate: false
+  xy: 115, 284
+  size: 833, 178
+  orig: 833, 178
+  offset: 0, 0
+  index: -1
+red
+  rotate: false
+  xy: 2, 86
+  size: 767, 40
+  orig: 767, 40
+  offset: 0, 0
+  index: -1
+stovp
+  rotate: false
+  xy: 672, 464
+  size: 154, 523
+  orig: 154, 523
+  offset: 0, 0
+  index: -1

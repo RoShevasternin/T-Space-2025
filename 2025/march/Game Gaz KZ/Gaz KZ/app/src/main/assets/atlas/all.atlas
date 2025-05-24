@@ -1,0 +1,82 @@
+all.png
+size: 1849, 375
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+blue_plus
+  rotate: false
+  xy: 2, 2
+  size: 127, 52
+  orig: 127, 52
+  offset: 0, 0
+  index: -1
+coin_plus
+  rotate: false
+  xy: 131, 2
+  size: 128, 53
+  orig: 128, 53
+  offset: 0, 0
+  index: -1
+dob_def
+  rotate: false
+  xy: 617, 219
+  size: 614, 140
+  orig: 614, 140
+  offset: 0, 0
+  index: -1
+dob_press
+  rotate: false
+  xy: 1233, 219
+  size: 614, 140
+  orig: 614, 140
+  offset: 0, 0
+  index: -1
+mag_def
+  rotate: false
+  xy: 695, 2
+  size: 223, 213
+  orig: 223, 213
+  offset: 0, 0
+  index: -1
+mag_press
+  rotate: false
+  xy: 920, 2
+  size: 223, 213
+  orig: 223, 213
+  offset: 0, 0
+  index: -1
+prod_def
+  rotate: false
+  xy: 1145, 2
+  size: 613, 140
+  orig: 613, 140
+  offset: 0, 0
+  index: -1
+prod_press
+  rotate: false
+  xy: 2, 219
+  size: 613, 140
+  orig: 613, 140
+  offset: 0, 0
+  index: -1
+progress
+  rotate: false
+  xy: 2, 361
+  size: 791, 12
+  orig: 791, 12
+  offset: 0, 0
+  index: -1
+x_def
+  rotate: false
+  xy: 261, 2
+  size: 215, 215
+  orig: 215, 215
+  offset: 0, 0
+  index: -1
+x_press
+  rotate: false
+  xy: 478, 2
+  size: 215, 215
+  orig: 215, 215
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,33 @@
+loader.png
+size: 540, 307
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gear
+  rotate: false
+  xy: 2, 2
+  size: 158, 158
+  orig: 158, 158
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 162, 2
+  size: 364, 134
+  orig: 364, 134
+  offset: 0, 0
+  index: -1
+progress
+  rotate: false
+  xy: 2, 162
+  size: 536, 21
+  orig: 536, 21
+  offset: 0, 0
+  index: -1
+progress_back
+  rotate: false
+  xy: 2, 185
+  size: 535, 120
+  orig: 535, 120
+  offset: 0, 0
+  index: -1

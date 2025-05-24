@@ -1,0 +1,33 @@
+loader.png
+size: 749, 609
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+btn
+  rotate: false
+  xy: 2, 2
+  size: 745, 112
+  orig: 745, 112
+  offset: 0, 0
+  index: -1
+btn_press
+  rotate: false
+  xy: 2, 116
+  size: 745, 112
+  orig: 745, 112
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 2, 230
+  size: 428, 377
+  orig: 428, 377
+  offset: 0, 0
+  index: -1
+sambolet
+  rotate: false
+  xy: 432, 230
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
