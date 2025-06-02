@@ -1,6 +1,7 @@
 package com.traoya.yatirimya.game.screens
 
 import com.traoya.yatirimya.game.GDX_GLOBAL_isGame
+import com.traoya.yatirimya.game.GDX_GLOBAL_isLoadAssets
 import com.traoya.yatirimya.game.actors.main.AMainLoader
 import com.traoya.yatirimya.game.manager.MusicManager
 import com.traoya.yatirimya.game.manager.SoundManager
@@ -141,6 +142,7 @@ class LoaderScreen : AdvancedScreen() {
     }
 
     private fun toGame() {
+        GDX_GLOBAL_isLoadAssets = true
         gdxGame.activity.hideWebView()
 
 //        gdxGame.musicUtil.apply { music = serious.apply {
