@@ -1,0 +1,54 @@
+all.png
+size: 1537, 241
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+balance
+  rotate: false
+  xy: 1023, 2
+  size: 512, 73
+  orig: 512, 73
+  offset: 0, 0
+  index: -1
+bluer
+  rotate: false
+  xy: 2, 2
+  size: 505, 26
+  orig: 505, 26
+  offset: 0, 0
+  index: -1
+molotok
+  rotate: false
+  xy: 1195, 77
+  size: 162, 162
+  orig: 162, 162
+  offset: 0, 0
+  index: -1
+oil
+  rotate: false
+  xy: 1030, 77
+  size: 163, 108
+  orig: 163, 108
+  offset: 0, 0
+  index: -1
+start_def
+  rotate: false
+  xy: 2, 77
+  size: 512, 91
+  orig: 512, 91
+  offset: 0, 0
+  index: -1
+start_press
+  rotate: false
+  xy: 516, 77
+  size: 512, 91
+  orig: 512, 91
+  offset: 0, 0
+  index: -1
+whiter
+  rotate: false
+  xy: 509, 2
+  size: 512, 34
+  orig: 512, 34
+  offset: 0, 0
+  index: -1
